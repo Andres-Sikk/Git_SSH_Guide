@@ -14,7 +14,7 @@ Find OpenSSH Authentication Agent -> right click -> properties -> change startup
 Type into Git Bash: ssh-keygen -t ed25519 -C "Desktop_1_SSH" (“Desktop_1_SSH” can be any file name) \
 Press ENTER three times (leave everything blank) \
 (optional?) Type into Git Bash: ls -l ~/.ssh \
-open id_ed25519.pub (in C:\Users\%USERNAME%\.ssh\) (or whatever the filename of *.pub is) with notepad and copy contents \
+open id_ed25519.pub ( in C:\Users\ %USERNAME%\ .ssh\ ) (or whatever the filename of *.pub is) with notepad and copy contents \
 Go to github account settings -> SSH and GPG keys -> Press "New SSH key" button -> paste key into "key" field, choose title name -> press "Add SSH Key" button \
 (optional?) Type into Git Bash: ssh -T git@github.com \
 Type yes and press enter \
